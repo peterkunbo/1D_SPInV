@@ -1,8 +1,29 @@
-streamlit>=1.18.0
-numpy==1.26.0
-scipy==1.10.1
-matplotlib==3.7.2
-pandas==2.0.3
-emcee==3.1.4
+# MCMC-Based Self-Potential Inversion Tool Requirements
+
+# Build tools (optional - usually auto-installed by pip)
 setuptools>=65.0.0
 wheel>=0.38.0
+
+# Core web framework
+streamlit>=1.28.0
+
+# Numerical computing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Scientific computing and optimization
+scipy>=1.10.0
+
+# MCMC sampling
+emcee>=3.1.0
+
+# Plotting and visualization
+matplotlib>=3.7.0
+
+# Optional: for better performance (uncomment if needed)
+# numba>=0.57.0
+
+# Development tools (optional, uncomment for development)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
