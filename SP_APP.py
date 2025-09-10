@@ -547,4 +547,4 @@ st.markdown("""
 
 # Footer
 st.markdown("---")
-st.markdown("© 2025 MCMC-Based Self-Potential Inversion Tool")
+st.markdown("© 2025 Peter Adetokunbo-MCMC-Based Self-Potential Inversion Tool")
